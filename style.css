@@ -32,7 +32,7 @@
     width: 100%;
     height: calc(100vh - 7rem);
     background: linear-gradient(rgba(18, 113, 255, 0.5), rgba(18, 113, 255, 0.3)),
-      url(images/background.jpg) center no-repeat;
+      url(background.jpg) center no-repeat;
     background-size: cover;
     margin-bottom: 5rem;
     position: relative; 
@@ -197,7 +197,7 @@
   width: 100%;
   height: calc(100vh - 7rem);
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
-    url(images/navbar-bg.jpg) center no-repeat;
+    url(navbar-bg.jpg) center no-repeat;
   background-size: cover;
 }
 
@@ -259,167 +259,8 @@
   text-shadow: 0 0.1rem 0.2rem var(--primary-color);
 } */
 
-/* .cards-wrapper {
-@@ -297,41 +305,42 @@ html {
-} */
 
-/* .card {
-  perspective: 150rem;
-  width: 35rem;
-  position: relative;
-  perspective: 150rem;
-} */
-/* 
-.card-image {
-  width: 100%;
-  border-radius: 0.3rem 0.3rem 0 0;
-} */
 
-/* .front-side {
-  overflow: hidden;
-  border-radius: 0.3rem;
-  text-align: center;
-  background-color: var(--white-color);
-  border-radius: 0.3rem;
-  position: relative;
-  z-index: 10;
-  opacity: 0.9;
-  text-align: center;
-  box-shadow: 0 0.5rem 2rem #aaa;
-  transform: translateZ(0) translateX(0);
-  transition: opacity 0.4s, transform 0.4s, box-shadow 0.4s;
-} */
-
-/* .card-image {
-  width: 100%;
-  border-radius: 0.3rem 0.3rem 0 0;
-.change > .front-side {
-  transform: translateZ(-5rem) translateX(3rem);
-  box-shadow: 0 2rem 4rem #777;
-  opacity: 0.5;
-  z-index: 0;
-} */
-
-/* .business-name {
-  font-size: 2.5rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  position: absolute;
-  top: 25%;
-  padding: 0.5rem;
-  border-radius: 0.5rem;
-  right: 1rem;
-  text-shadow: 0 0rem 1rem #000;
-  top: 30%;
-  right: 1.5rem;
-  color: var(--white-color);
-  text-transform: uppercase;
-  font-size: 2.5rem;
-  margin-top: 2rem;
-  text-shadow: 0 0 1rem #000;
-} */
-
-/* .card-list {
-@@ -340,42 +349,26 @@ html {
-  padding: 2rem 0 3rem 0;
-} */
-
-/* .card-item {
-.card-list-item {
-  font-size: 1.6rem;
-  font-weight: 500;
-  color: var(--light-grey-color);
-  margin: 2rem 0;
-  padding-bottom: 1.5rem;
-  font-weight: 500;
-  font-size: 1.6rem;
-  border-bottom: 0.1rem solid var(--primary-color);
-} */
-
-/* .navigation-button {
-  position: absolute;
-  top: 0.5rem;
-  left: 0.5rem;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  border-radius: 0.3rem;
-  background-color: rgba(255, 255, 255, 0.8);
-  color: var(--light-grey-color);
-  padding: 0.5rem;
-  border: none;
-  letter-spacing: 0.2rem;
-  font-weight: 600;
-  cursor: pointer;
-  padding-bottom: 1.5rem;
-} */
-
-/* .back-side {
-  border-radius: 0.3rem;
-  transform: translateZ(-5rem) translateX(3rem);
-  background-color: var(--primary-color);
-  position: absolute;
-  height: 100%;
-  top: 0;
-  background-color: var(--primary-color);
-  width: 100%;
-  height: 100%;
-  border-radius: 0.3rem;
-  box-shadow: 0 2rem 4rem #777;
-  top: 0;
-  opacity: 0.5;
-  flex-direction: column;
-  transform: translateZ(-5rem) translateX(3rem);
-  opacity: 0.5;
-  transition: opacity 0.4s, transform 0.4s, box-shadow 0.4s;
-} */
-/* 
-@@ -385,13 +378,6 @@ html {
-  opacity: 0.9;
-} */
-
-/* .change > .front-side {
-  transform: translateZ(-5rem) translateX(3rem);
-  box-shadow: 0 2rem 4rem #777;
-  opacity: 0.5;
-  z-index: 0;
-} */
-
-/* .tour-price {
-  font-size: 5rem;
-  font-weight: 300;
-@@ -400,22 +386,55 @@ html {
-} */
-
-/* .card-button {
-  color: var(--primary-color);
-  background-color: var(--white-color);
-  border: none;
-  font-size: 2.5rem;
-  letter-spacing: 0.2rem;
-  padding: 1rem 2rem;
-  color: var(--primary-color);
-  border-radius: 50px;
-  letter-spacing: 0.2rem;
-  border-radius: 5rem;
-  cursor: pointer;
-} */
-
-/* .navigation-button {
-  position: absolute;
-  top: 0.5rem;
-  left: 0.5rem;
-  padding: 0.5rem;
-  background-color: rgba(255, 255, 255, 0.8);
-  color: var(--light-grey-color);
-  border-radius: 0.3rem;
-  border: none;
-  font-size: 1.5rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.2rem;
-  cursor: pointer;
-}
-   */
 
 
 
@@ -493,7 +334,7 @@
     padding: 15rem 0 20rem 0;
     text-align: center;
     background-size: cover;
-    background: url(images/contact.jpg) center no-repeat;
+    background: url(contact.jpg) center no-repeat;
     
    }
 
@@ -696,7 +537,7 @@
     width: 100%;
     height: 100%;
      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
-      url(images/background.jpg) center no-repeat; 
+      url(background.jpg) center no-repeat; 
      
     background-size: cover;
     position: relative;
