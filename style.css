@@ -168,7 +168,7 @@
   text-align: center;
   margin-bottom: 8rem;
   color: #2b81eb;
-  text-shadow: 0 0.1rem 0.2rem #2b81eb;
+  text-shadow: 0 0.1rem 0.2rem #0000;
 }
 
 
@@ -319,9 +319,9 @@
     padding: 15rem 0 20rem 0;
     text-align: center;
     background-size: cover;
-    background: url(contact.jpg) center no-repeat;
-    
-   }
+    background: url(contact.jpg) ;
+    text-shadow: 0 1rem 2rem #000;
+    }
 
   .contact-heading {
     font-size: 7rem;
